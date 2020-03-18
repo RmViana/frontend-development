@@ -1,0 +1,90 @@
+h1{
+    position: static;
+}
+
+.box{
+    width: 500px;
+    height: 500px;
+    border: 5px solid black;
+    margin: 20px auto;
+    position: static;
+}
+
+.item1, .item2{
+    width: 150px;
+    height: 150px;
+}
+
+.item1{
+    background-color: #508AA8;
+    position: relative;
+}
+
+.item2{
+    background-color: #6F1A07;
+}
+
+.item1Absolute, .item2Absolute{
+    width: 150px;
+    height: 150px;
+}
+
+.item1Absolute{
+    background-color: #508AA8;
+    position: absolute;
+    bottom: 0px;
+}
+
+.item2Absolute{
+    background-color: #6F1A07;
+}
+
+.box-relative{
+    width: 500px;
+    height: 500px;
+    border: 5px solid black;
+    margin: 20px auto;
+    position: relative;
+}
+
+.item1Relative, .item2Relative{
+    width: 150px;
+    height: 150px;
+}
+
+.item1Relative{
+    background-color: #508AA8;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.item2Relative{
+    background-color: #6F1A07;
+}
+
+.item1Fixed, .item2Fixed{
+    width: 150px;
+    height: 150px;
+}
+
+.item1Fixed{
+    background-color: #508AA8;
+    position: fixed;
+    left: 50px;
+}
+
+.item2Fixed{
+    background-color: #6F1A07;
+}
+
+p{
+    width: 30%;
+}
+
+nav{
+    background-color: #6F1A07;
+    color: white;
+    position: sticky;
+    top: 0;
+}
